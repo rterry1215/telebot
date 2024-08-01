@@ -3,6 +3,7 @@ import { useAuth } from "../../contexts/AuthContext";
 import CopyIcon from "../../assets/icons/Copy";
 import FlagIcon from "../../assets/icons/Flag";
 import MedalIcon from "../../assets/icons/Medal";
+import ButtonIcon from "../../assets/icons/InviteButton";
 
 const Friends = () => {
   const { name, point } = useAuth();
@@ -36,9 +37,10 @@ const Friends = () => {
         rankings here and race together!
       </div>
       <div className="flex justify-center">
-        <button className="bg-white text-black text-lg font-medium w-2/3 h-[50px] rounded-[25px]">
+        {/* <button className="bg-white text-black text-lg font-medium w-2/3 h-[50px] rounded-[25px]">
           Invite via contacts
-        </button>
+        </button> */}
+        <ButtonIcon />
         <button className="bg-white text-black text-lg font-medium h-[50px] w-[50px] rounded-[25px] ml-4 flex justify-center items-center">
           <CopyIcon width={18} height={18} color={"#000"} />
         </button>

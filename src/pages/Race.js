@@ -140,6 +140,7 @@ const Race = () => {
           </div>
         ) : (
           <div className="h-20">
+
             <div className="flex justify-center">
               <div className="flex">
                 <div className="mr-1 flex items-center">

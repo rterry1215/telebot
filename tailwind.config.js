@@ -18,6 +18,14 @@ module.exports = {
       fontFamily: {
         digital: ["Digital7"],
       },
+      colors: {
+        custom: {
+          '000713': '#000713',
+          '0F1F39': '#0F1F39',
+          '1A2B47': '#1A2B47'
+
+        },
+      },
     },
   },
   plugins: [
