@@ -2,7 +2,8 @@ import React from "react";
 import DotIcon from "../assets/icons/Dot";
 import CopyIcon from "../assets/icons/Copy";
 import BackgroundIcon from "../assets/icons/Background";
-import ButtonIcon from "../assets/icons/InviteButton";
+// import ButtonIcon from "../assets/icons/InviteButton";
+import ArrowIcon from "../assets/icons/Arrow";
 
 const Invite = () => {
   return (
@@ -47,11 +48,11 @@ const Invite = () => {
         You'll earned <span className="text-white">0 pts</span> from your
         friends.
       </div>
-      <div className="flex justify-center mt-80">
-        {/* <button className="bg-white text-black text-lg font-medium w-2/3 h-[50px] rounded-[25px]">
-        Invite friends
-        </button>   */}
-        <ButtonIcon />
+      <div className="flex justify-center">
+        <button className="bg-gradient-to-b from-blue-700 via-#04C1FF to-#0062FF text-black text-lg font-medium w-2/3 h-[50px] rounded-[25px]">
+          Invite friends
+        </button>
+        <ArrowIcon />
         <button className="bg-white text-black text-lg font-medium h-[50px] w-[50px] rounded-[25px] ml-4 flex justify-center items-center">
           <CopyIcon width={18} height={18} color={"#000"} />
         </button>
